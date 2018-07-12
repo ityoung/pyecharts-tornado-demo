@@ -26,7 +26,7 @@ First you need to write a basic tornado server, and create a template directory,
 
 Add this template to your templates directory.
 
-The template comes from the [flask one](http://pyecharts.org/#/en-us/flask?id=step-2-provide-your-own-template), notice that the body part has changed to tornado way with `{% raw *vars* %}`, to protect the *HTML* grammer not being escaped.
+>The template comes from the [flask one](http://pyecharts.org/#/en-us/flask?id=step-2-provide-your-own-template), notice that the body part has changed to tornado way with `{% raw *vars* %}`, to protect the *HTML* grammer from being escaped.
 
 ```
 <!DOCTYPE html>
